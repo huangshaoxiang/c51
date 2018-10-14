@@ -1,0 +1,29 @@
+C51 COMPILER V9.01   MAIN                                                                  10/14/2018 23:10:56 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: F:\Keil\C51\BIN\C51.EXE main.c BROWSE INCDIR(.\driver\inc) DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include "led.h"
+   2          void main(void)
+   3          {
+   4   1              led_on();
+   5   1              led_off();
+   6   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =      6    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

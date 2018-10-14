@@ -1,0 +1,5 @@
+"STARTUP.obj",
+"main.obj",
+"led.obj" 
+TO "51_project" 
+RAMSIZE(256) 
